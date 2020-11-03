@@ -19,7 +19,7 @@
       <button type="submit" name="Submit">Ajoute</button>
     </form>
     <c:if test="${errors != null}">
-      Errors:
+      Erreurs:
       <ul>
         <c:forEach items="${errors}" var="error">
           <li>${error}</li>

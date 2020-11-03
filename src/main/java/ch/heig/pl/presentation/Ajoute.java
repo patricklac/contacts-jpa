@@ -1,6 +1,6 @@
 package ch.heig.pl.presentation;
 
-import ch.heig.pl.business.ContactService;
+import ch.heig.pl.integration.ContactDAO;
 import ch.heig.pl.model.Contact;
 
 import javax.inject.Inject;
@@ -17,12 +17,14 @@ import java.util.List;
 public class Ajoute extends HttpServlet {
 
     @Inject
-    private ContactService service;
+    private ContactDAO contactDAO;
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/WEB-INF/pages/ajoute.jsp").forward(request, response);
     }
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String nom = request.getParameter("nom");
         String telephone = request.getParameter("telephone");
@@ -47,7 +49,7 @@ public class Ajoute extends HttpServlet {
         request.setAttribute("telephone", telephone);
 
         if (errors.size() == 0) {
-            service.add(new Contact(nom,tel));
+            contactDAO.save(new Contact(nom,tel));
             response.sendRedirect(request.getContextPath() + "/liste");
         } else {
             request.setAttribute("errors", errors);

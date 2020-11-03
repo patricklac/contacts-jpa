@@ -6,11 +6,9 @@
   </head>
   <body>
     <h2>Liste contacts</h2>
-    <ul>
       <c:forEach items="${contacts}" var="contact" >
         <li>${contact.nom} : ${contact.telephone}</li>
       </c:forEach>
-    </ul>
 
   </body>
 </html>
