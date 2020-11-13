@@ -10,37 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6359569c-9318-40b2-b8b2-564e6ed1da79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/contacts_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/contacts_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_api_8_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/business/AlreadyCoupledException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/ListeCouples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/UniCouple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/listeCouples.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/uniCouple.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heig/pl/business/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/business/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heig/pl/business/dao/ContactDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/integration/ContactDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heig/pl/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/Ajoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/Ajoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heig/pl/presentation/Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/ajoute.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/ajoute.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/liste.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/liste.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,17 +65,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GlassFish 5.2020.4" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.2020.4" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/contacts/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -188,12 +148,34 @@
       <updated>1604411430754</updated>
       <workItem from="1604411433618" duration="1176000" />
       <workItem from="1604421482190" duration="38000" />
-      <workItem from="1604421569509" duration="6836000" />
+      <workItem from="1604421569509" duration="7369000" />
+      <workItem from="1604943013167" duration="1056000" />
+      <workItem from="1605116215756" duration="1158000" />
+      <workItem from="1605256405143" duration="403000" />
     </task>
+    <task id="LOCAL-00001" summary="Contacts with union JPA">
+      <created>1604432812306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604432812306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Contacts with union JPA">
+      <created>1604432847814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604432847814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Contacts with union JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contacts with union JPA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="302" y="75" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604411523759">
@@ -204,41 +186,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1604421696032" />
+    <state x="373" y="0" key="CommitChangelistDialog2" timestamp="1604432846428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="373" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604432846428" />
     <state x="627" y="175" key="FileChooserDialogImpl" timestamp="1604421573275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="627" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604421573275" />
-    <state width="940" height="223" key="GridCell.Tab.0.bottom" timestamp="1604432157154">
+    <state width="665" height="165" key="GridCell.Tab.0.bottom" timestamp="1605256783939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604432157154" />
-    <state width="940" height="223" key="GridCell.Tab.0.center" timestamp="1604432157153">
+    <state width="665" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605256783939" />
+    <state width="665" height="165" key="GridCell.Tab.0.center" timestamp="1605256783938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604432157153" />
-    <state width="940" height="223" key="GridCell.Tab.0.left" timestamp="1604432157153">
+    <state width="665" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605256783938" />
+    <state width="665" height="165" key="GridCell.Tab.0.left" timestamp="1605256783938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604432157153" />
-    <state width="940" height="223" key="GridCell.Tab.0.right" timestamp="1604432157153">
+    <state width="665" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605256783938" />
+    <state width="665" height="165" key="GridCell.Tab.0.right" timestamp="1605256783938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604432157153" />
-    <state width="940" height="118" key="GridCell.Tab.1.bottom" timestamp="1604432078970">
+    <state width="665" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605256783938" />
+    <state width="665" height="165" key="GridCell.Tab.1.bottom" timestamp="1605256783939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="118" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604432078970" />
-    <state width="940" height="118" key="GridCell.Tab.1.center" timestamp="1604432078969">
+    <state width="665" height="165" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605256783939" />
+    <state width="665" height="165" key="GridCell.Tab.1.center" timestamp="1605256783939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="118" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604432078969" />
-    <state width="940" height="118" key="GridCell.Tab.1.left" timestamp="1604432078969">
+    <state width="665" height="165" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605256783939" />
+    <state width="665" height="165" key="GridCell.Tab.1.left" timestamp="1605256783939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="118" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604432078969" />
-    <state width="940" height="118" key="GridCell.Tab.1.right" timestamp="1604432078970">
+    <state width="665" height="165" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605256783939" />
+    <state width="665" height="165" key="GridCell.Tab.1.right" timestamp="1605256783939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="940" height="118" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604432078970" />
+    <state width="665" height="165" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605256783939" />
+    <state x="341" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604432850200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604432850200" />
   </component>
 </project>
